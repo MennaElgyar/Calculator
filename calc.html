@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+    <div class="main">
+        <!--
+        <form action="">
+            <input type="text" name="textview" class="textview">
+        </form>-->
+        <div class="textview">
+            <p>0</p>
+        </div>
+        <div class="btns1">
+            <div class="col-3"><input type="button" value="AC" id="op" class="button "></div>
+            <div class="col-3"><input type="button" value="%" id="op" class="button operator"></div>
+            <div class="col-3"><input type="button" value="&#8730" id="op" class="button operator sqrt" data-op="sqrt">
+            </div>
+            <div class="col-3"><input type="button" value="&#247" id="op" class="button operator div" data-op="div">
+            </div>
+        </div>
+
+        <div class="btns2">
+            <div class="col-3"><input type="button" value="7" class="button number"></div>
+            <div class="col-3"><input type="button" value="8" class="button number"></div>
+            <div class="col-3"><input type="button" value="9" class="button number"></div>
+            <div class="col-3"><input type="button" value="&#215" id="op" class="button operator mul" data-op="mul">
+            </div>
+        </div>
+        <div class="btns3">
+            <div class="col-3"><input type="button" value="4" class="button number"></div>
+            <div class="col-3"><input type="button" value="5" class="button number"></div>
+            <div class="col-3"><input type="button" value="6" class="button number"></div>
+            <div class="col-3"><input type="button" value="&#8722" id="op" class="button operator sub" data-op="sub">
+            </div>
+        </div>
+        <div class="btns4">
+            <div class="col-3"><input type="button" value="1" class="button number"></div>
+            <div class="col-3"><input type="button" value="2" class="button number"></div>
+            <div class="col-3"><input type="button" value="3" class="button number"></div>
+            <div class="col-3"><input type="button" value="&#43" id="op" class="button operator plus " data-op="plus">
+            </div>
+        </div>
+        <div class="btns5">
+            <div class="col-3"><input type="button" value="C" class="button clear"></div>
+            <div class="col-3"><input type="button" value="0" class="button number"></div>
+            <div class="col-3"><input type="button" value="." class="button number" data-op="add"></div>
+            <div class="col-3"><input type="button" value="&#61" id="op" class="button equal"></div>
+        </div>
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+
+</html>
